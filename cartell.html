@@ -6,18 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Lauan Music Fest</title>
 		<link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 	</head>
 	<body>
 
 		<header>
-			<nav>
-				<ul class="nav-menu3">
-					<li><a href="tiquets.html">TIQUETS</a></li>
-					<li><a href="horaris.html">HORARIS</a></li>
-					<li class="selected-tiquets3"><a href="cartell.html">CARTELL</a></li>
-					<li><a href="info.html">INFO IMPORTANT</a></li>
-				</ul>
-			</nav>
+			<div class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav class="nav-4">
+                <ul>
+                    <li><a href="tiquets.html">TIQUETS</a></li>
+                    <li><a href="horaris.html">HORARIS</a></li>
+                    <li class="activelink3"><a href="cartell.html">CARTELL</a></li>
+                    <li><a href="info.html">INFO IMPORTANT</a></li>
+                </ul>
+            </nav>
 			<a href="index.html" class="main-title">
 				<h1 class="main-title-style">Lauan Music Festival 2025</h1>
 			</a>
@@ -168,9 +172,13 @@
             </div>
 
 		</main>
-		<footer>
-			<p class="footer">LAUAN MUSIC FEST 23 / 24 / 25 de MAIG! 48h de &#9835; &#9835; &#9835; i &#x2764 non-stop! LAUAN MUSIC FEST 23 / 24 / 25 de MAIG! 48h de &#9835; &#9835; &#9835; i &#x2764 non-stop! LAUAN MUSIC FEST 23 / 24 / 25 de MAIG! 48h de &#9835; &#9835; &#9835; i &#x2764 non-stop! LAUAN MUSIC FEST 23 / 24 / 25 de MAIG! 48h de &#9835; &#9835; &#9835; i &#x2764 non-stop!</p>
-		</footer>
+		<script> 
+			checkbtn = document.querySelector(".checkbtn");
+			checkbtn.onclick =function() {
+				navBar = document.querySelector(".nav-4");
+				navBar.classList.toggle("active");
+			}
+		</script>
 
 	</body>
 </html>

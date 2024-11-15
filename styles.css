@@ -309,20 +309,47 @@ p {
 
 /* horaris */
 
-.selected-tiquets2 a {
+.nav-3 {
+    font-family: 'Pressura';
+    font-size: 24px;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: #1D1D1B solid 1px;
+    background-color: #F0F0F0;
+}
+
+.nav-3 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-3 ul li {
+    list-style: none;
+}
+
+.nav-3 ul li a {
+    text-decoration: none;
+    color: #1D1D1B;
+}
+
+.nav-3 ul li a:hover {
+    color: #E08C5C;
+}
+
+.activelink2 a {
     background-color: #E08C5C;
     padding: 0.1rem 0.4rem;
     border-radius: 0.3rem; 
 }
 
-.selected-tiquets2 a:hover {
+.activelink2 a:hover {
     background-color:#F1A893;
     color: #1D1D1B;
     border-radius: 0rem;
-}
-
-.nav-menu2 a:hover{
-    color: #E08C5C;
 }
 
 .horaris-container {
@@ -388,38 +415,45 @@ ul.leaders span + span {
 
 /*Cartell*/
 
-.nav-menu3 {
-    background-color: #F0F0F0;
+.nav-4 {
     font-family: 'Pressura';
     font-size: 24px;
     letter-spacing: 1px;
-    display: flex;
-    list-style: none;
     justify-content: space-between;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     border-bottom: #1D1D1B solid 1px;
+    background-color: #F0F0F0;
 }
 
-.nav-menu3 a {
+.nav-4 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-4 ul li {
+    list-style: none;
+}
+
+.nav-4 ul li a {
     text-decoration: none;
     color: #1D1D1B;
 }
 
-.nav-menu3 a:hover {
+.nav-4 ul li a:hover {
     color: #92B1E6;
 }
 
-.selected-tiquets3 a {
+.activelink3 a {
     background-color: #C9D9F0;
     padding: 0.1rem 0.4rem;
     border-radius: 0.3rem; 
     color: #1D1D1B;
 }
 
-.selected-tiquets3 a:hover {
+.activelink3 a:hover {
     background-color:#DEE8F6;
     color: #1D1D1B;
     border-radius: 0rem;
@@ -665,6 +699,116 @@ ul.leaders span + span {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    /*Horaris*/
+
+    .nav-3 {
+        height: 0;
+        padding: 0px;  
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: #F0F0F0;
+        transition: 0.5s;  
+        overflow: hidden;  
+        border-bottom: #1D1D1B 1px solid;
+    }
+
+    .nav-3 ul {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin: 20px auto 20px auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }  
+
+    .nav-3 ul li {
+        margin-bottom: 1rem;
+    }
+    
+    .nav-3.active {
+        height: auto;
+    }
+
+    .nav-3.active ul {
+        opacity: 1;
+    }
+
+    .activelink2 {
+        margin: 0 auto;
+    }
+
+    .dia-container {
+        width: 100%;
+    }
+
+    /*Cartell*/
+
+    .nav-4 {
+        height: 0;
+        padding: 0px;  
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: #F0F0F0;
+        transition: 0.5s;  
+        overflow: hidden;  
+        border-bottom: #1D1D1B 1px solid;
+    }
+
+    .nav-4 ul {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin: 20px auto 20px auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }  
+
+    .nav-4 ul li {
+        margin-bottom: 1rem;
+    }
+    
+    .nav-4.active {
+        height: auto;
+    }
+
+    .nav-4.active ul {
+        opacity: 1;
+    }
+
+    .activelink3 {
+        margin: 0 auto;
+    }
+
+    .cartell-container {
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        background-color: #F0F0F0;
+    }
+
+    .dia-container2 {
+        width: 100%;
+    }
+
+    .djs-container {
+        display: flex;
+        flex-direction: column;
+        background-color: #C9D9F0;
+        align-items: center;
+    }
+
+    .djs-container img {
+        width: 100%;
     }
 
     }
