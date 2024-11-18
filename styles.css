@@ -577,6 +577,7 @@ ul.leaders span + span {
 @media (max-width: 768px) {
     .main-title {
         font-size: 1rem;
+        font-family: 'Pressura-Medium' ,sans-serif;
     }
     
     .main-title-style {
