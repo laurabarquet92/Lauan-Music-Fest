@@ -580,8 +580,10 @@ ul.leaders span + span {
     }
     
     .main-title-style {
-        line-height: 3rem;
+        line-height: 2.5rem;
         padding: 0.5rem 0.5rem 0.75rem 0.5rem;
+        font-family: 'Pressura' , sans-serif; 
+        letter-spacing: 0.25rem;
     } 
 
     .checkbtn {
