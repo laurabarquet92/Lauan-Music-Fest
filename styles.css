@@ -191,6 +191,7 @@ p {
     font-family: 'Times', sans-serif;
     color: #D8FD50;
     font-size: 4rem;
+    letter-spacing: -1.5px;
 }
 
 .btn {
@@ -629,29 +630,21 @@ ul.leaders span + span {
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        gap: 0.25rem;
-    }
-
-    .btn {
+        gap: 0.5rem;
         
     }
     
     .main-title {
         font-size: 1rem;
+        width: 100%;
+        text-align: center;
     }
-    
-    .main-title-style {
-        line-height: 2.5rem;
-        padding: 0.5rem 0.5rem 0.75rem 0.5rem;
-
-    } 
 
     .checkbtn {
         display: block;
         cursor: pointer;
         font-size: 1.75rem;
         color: #1D1D1B;
-        background-color: #F0F0F0;
         text-align: center;
         padding: 0.75rem;
     }
@@ -663,7 +656,7 @@ ul.leaders span + span {
         left: 0;
         right: 0;
         width: 100vw;
-        background-color: #F0F0F0;
+        background-color: #FFFFFF;
         transition: 0.5s;  
         overflow: hidden;  
         border-bottom: #1D1D1B 1px solid;
@@ -689,6 +682,11 @@ ul.leaders span + span {
 
     .nav-1.active ul {
         opacity: 1;
+    }
+
+    .slider div {
+        font-size: 2rem;
+        letter-spacing: -0.5px;
     }
 
     /*Tiquets*/
