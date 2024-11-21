@@ -21,3 +21,25 @@ function countdown() {
 
 const x = setInterval(countdown, 1000);
 
+
+
+/*Button change header*/
+
+function updateButton() {
+    const button = document.getElementById("btn");
+
+    if (window.innerWidth <= 768) {
+        button.innerHTML = '<i class="fa-solid fa-ticket"></i>';
+        button.style.padding = "14px 16px";
+        button.style.fontSize = "14px";
+    } else {
+        button.textContent = "COMPRA LA TEVA ENTRADA";
+        button.style.padding = "15px 24px";
+        button.style.fontSize = "16px";
+    }
+    }
+
+    window.addEventListener("resize", updateButton);
+    updateButton();
+
+

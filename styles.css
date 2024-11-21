@@ -197,7 +197,7 @@ p {
     letter-spacing: -1.5px;
 }
 
-.btn {
+#btn {
     font-family: 'Pressura-Medium', sans-serif;
     font-size: 1rem;
     padding: 0.85rem 1rem 1rem 1rem;
@@ -207,7 +207,8 @@ p {
     border: none;
 }
 
-.btn:hover {
+
+#btn:hover {
     background-color: #1D1D1B;
     color: #F0F0F0;
     cursor: url("img/PgECor.png") 0 0, pointer;
@@ -634,12 +635,10 @@ ul.leaders span + span {
 
     .header {
         flex-direction: row;
-        gap: 0.5rem;
-        
     }
 
-    p.time ,p.dates{
-        height: 30px;
+    p.time ,p.dates {
+        height: 45.5px;
         display: flex;
         align-items: center;
         justify-content: center;
