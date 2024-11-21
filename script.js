@@ -30,7 +30,7 @@ function updateButton() {
 
     if (window.innerWidth <= 768) {
         button.innerHTML = '<i class="fa-solid fa-ticket"></i>';
-        button.style.padding = "14px 16px";
+        button.style.padding = "14px 20px";
         button.style.fontSize = "14px";
     } else {
         button.textContent = "COMPRA LA TEVA ENTRADA";
@@ -42,4 +42,19 @@ function updateButton() {
     window.addEventListener("resize", updateButton);
     updateButton();
 
+/*Menu*/
+
+const checkbtn = document.querySelector(".checkbtn");
+const navBar = document.querySelector(".nav-1");
+
+checkbtn.onclick = function(event) {
+    navBar.classList.toggle("active");
+    event.stopPropagation(); 
+};
+
+document.addEventListener("click", function(event) {
+    if (!navBar.contains(event.target) && !checkbtn.contains(event.target)) {
+        navBar.classList.remove("active");
+    }
+});
 
