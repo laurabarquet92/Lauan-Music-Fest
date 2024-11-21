@@ -108,9 +108,10 @@ p {
 }
 
 .main-title-style {
-    font-size: 1.25rem;
+    font-family: 'Pressura', sans-serif;
+    font-size: 1rem;
     padding: 0.85rem 1rem 1rem 1rem;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 } 
 
 .main-title :hover {
@@ -229,37 +230,6 @@ p {
 
 /* tiquets */
 
-.nav-2 {
-    font-family: 'Pressura', sans-serif;
-    font-size: 24px;
-    letter-spacing: 1px;
-    justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    border-bottom: #1D1D1B solid 1px;
-    background-color: #F0F0F0;
-}
-
-.nav-2 ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-2 ul li {
-    list-style: none;
-}
-
-.nav-2 ul li a {
-    text-decoration: none;
-    color: #1D1D1B;
-}
-
-.nav-2 ul li a:hover {
-    color: #E0C35C;
-}
-
 .activelink {
     background-color: #D8C994;
     padding: 0.1rem 0.4rem;
@@ -276,8 +246,6 @@ p {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin: 0rem 2rem;
-    border: #9F9F9F 1px solid;
 }
 
 .tickets-card {
@@ -647,10 +615,6 @@ ul.leaders span + span {
         width: 100%;
     }
 
-    .main-title-style {
-        font-size: 1.25rem;
-    }
-
     .checkbtn {
         display: block;
         cursor: pointer;
@@ -697,7 +661,7 @@ ul.leaders span + span {
     }
 
     .slider div {
-        font-size: 2rem;
+        font-size: 3rem;
         letter-spacing: -0.5px;
     }
 

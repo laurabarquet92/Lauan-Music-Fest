@@ -7,33 +7,39 @@
 		<title>Lauan Music Fest</title>
 		<link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <script src="script.js" defer></script>
 	</head>
 	<body>
         <header>
 			<div class="header">
 				<a href="index.html" class="main-title">
-					<h1 class="main-title-style">Lauan Music Festival 2025</h1>
+					<h1 class="main-title-style">LAUAN MUSIC FEST 2025</h1>
 				</a>
-				<p class="dates">23-24-25<br>MAIG</p>
-				<div id="direccio"><p class="time">Direcció:<br>Camí de Fellines sn Viladesens (Girona)</p></div>
+				<p class="dates">23-24-25 MAIG</p>
+				<div id="direccio"><p class="time"> Camí de Fellines sn Viladesens (Girona)</p></div>
 				<div id="countdown">
 					<div class="countdown-item"><div class="time" id="days">0</div><p>Dies</p></div>
 					<div class="countdown-item"><div class="time" id="hours">0</div><p>Hores</p></div>
 					<div class="countdown-item"><div class="time" id="minutes">0</div><p>Minuts</p></div>
 					<div class="countdown-item"><div class="time" id="seconds">0</div><p>Segons</p></div>
 				</div>
+					<a href="tiquets.html">
+					<button id="btn" >COMPRA LA TEVA ENTRADA</button>
+					</a>
+				</div>
 			</div>
 			<div class="checkbtn">
-				<i class="fa-solid fa-bars"></i>
+				<p class="menu-button">MENU</p>
 			</div>
 			<nav class="nav-1">
 				<ul>
-					<li class="activelink"><a href="tiquets.html">TIQUETS</a></li>
+					<li><a href="tiquets.html">TIQUETS</a></li>
 					<li><a href="horaris.html">HORARIS</a></li>
 					<li><a href="cartell.html">CARTELL</a></li>
 					<li><a href="info.html">INFO IMPORTANT</a></li>
 				</ul>
 			</nav>
+		</header>
 		<main>
             <div class="tickets-container">
                 <div class="tickets-card">
@@ -53,7 +59,6 @@
                     <div class="puntitos"> </div>
 
                     <div class="bottom-card">
-                        <img src="img/barres.svg" class="img-barres">
                         <h2 class="preu">150€</h2>
                         <a href="https://revolut.me/laurabarquet" class="button-link" target="_blank">
                             <button class="btn-2">COMPRAR</button>
@@ -76,7 +81,6 @@
                     <div class="puntitos"> </div>
 
                     <div class="bottom-card">
-                        <img src="img/barres.svg" class="img-barres">
                         <h2 class="preu">90€</h2>
                         <a href="https://revolut.me/laurabarquet" class="button-link" target="_blank">
                             <button class="btn-2">COMPRAR</button>
@@ -98,8 +102,7 @@
 
                     <div class="puntitos"> </div>
 
-                     <div class="bottom-card">
-                        <img src="img/barres.svg" class="img-barres">
+                    <div class="bottom-card">
                         <h2 class="preu">40€</h2>
                         <a href="https://revolut.me/laurabarquet" class="button-link" target="_blank">
                             <button class="btn-2">COMPRAR</button>
@@ -111,12 +114,5 @@
 
             </div>  
 		</main>
-        <script> 
-			checkbtn = document.querySelector(".checkbtn");
-			checkbtn.onclick =function() {
-				navBar = document.querySelector(".nav-2");
-				navBar.classList.toggle("active");
-			}
-		</script>
 	</body>
 </html>
