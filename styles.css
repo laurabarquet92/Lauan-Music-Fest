@@ -110,7 +110,7 @@ p {
 .main-title-style {
     font-size: 1.25rem;
     padding: 0.85rem 1rem 1rem 1rem;
-    letter-spacing: 0.15rem;
+    letter-spacing: 1px;
 } 
 
 .main-title :hover {
