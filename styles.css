@@ -102,14 +102,13 @@ p {
 }
 
 .main-title {
-    font-family: 'Pressura-Medium' ,sans-serif;
+    font-family: 'Pressura' ,sans-serif;
     color: #1D1D1B;
     text-decoration: none;
 }
 
 .main-title-style {
-    font-family: 'Pressura-Medium', sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding: 0.85rem 1rem 1rem 1rem;
     letter-spacing: 0.15rem;
 } 
