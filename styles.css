@@ -54,6 +54,10 @@ body {
     height: 100dvh;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav-1 {
     font-family: 'Pressura', sans-serif;
     font-size: 1.25rem;
