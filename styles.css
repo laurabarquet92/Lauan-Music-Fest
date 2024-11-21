@@ -286,17 +286,17 @@ h2.preu {
 .btn-2 {
     font-family: 'Pressura-Medium', sans-serif;
     font-size: 1.25rem;
-    background-color: #E0C35C;
+    background-color: #1D1D1B;
     padding: 0.75rem 2rem;
     border: #1D1D1B solid 1px;
     width: 100%; 
     transition: border-radius 0.2s ease;
+    color: #F0F0F0;
 }
 
 .btn-2:hover {
-    background-color: #F3E8C0;
+    background-color: #F0F0F0;
     cursor: pointer;
-    border-radius: 0.75rem;
 }
 
 .button-link {
@@ -678,7 +678,7 @@ ul.leaders span + span {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0rem;
+        padding: 1rem;
     }
 
     .tickets-card {
