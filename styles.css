@@ -83,7 +83,7 @@ a {
 }
 
 .nav-1 ul li a:hover {
-    color: #D8FD50;
+    color: #EFDF07;
     background-color: #1D1D1B;
     padding: 0.1rem 0.4rem 0.2rem 0.4rem;
     border-radius: 0.25rem;
@@ -186,19 +186,19 @@ p {
 }
 
 .slider {
-    height: 80px;
+    height: 100px;
     padding-left: 15px;
     overflow: hidden;
 }
 
 .slider div {
-    height: 50px;
-    margin-bottom: 50px;
+    height: 70px;
+    margin-bottom: 20px;
     padding: 2px 15px;
     text-align: center;
     font-family: 'Times', sans-serif;
-    color: #D8FD50;
-    font-size: 4rem;
+    color: #EFDF07;
+    font-size: 6rem;
     letter-spacing: -1.5px;
 }
 
@@ -254,7 +254,7 @@ p {
 }
 
 .tickets-card {
-    background-color: #E0C35C;
+    background-color: #EFDF07;
     border: #1D1D1B 1px solid;
     width: 300px;
     display: flex;
@@ -266,10 +266,10 @@ p {
 }
 
 .card-title {
-    font-family: 'Pressura-Regular', sans-serif;
-    font-size: 2.2rem;
-    text-transform: uppercase;
+    font-family: 'Times', sans-serif;
+    font-size: 2rem;
     margin-bottom: 1rem;
+    letter-spacing: -1px;
 }
 
 .puntitos {
@@ -279,19 +279,15 @@ p {
     height: 10px;
 }
 
-h2.preu {
-    margin-top: 0.75rem;
-}
-
 .btn-2 {
     font-family: 'Pressura-Medium', sans-serif;
-    font-size: 1.25rem;
-    background-color: #1D1D1B;
-    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    background-color: #EFDF07;
+    padding: 0.5rem 2rem;
     border: #1D1D1B solid 1px;
     width: 100%; 
     transition: border-radius 0.2s ease;
-    color: #F0F0F0;
+    color: #1D1D1B;
 }
 
 .btn-2:hover {
@@ -311,7 +307,7 @@ h2.preu {
 
 .text-card-container {
     padding: 0.25rem 0.5rem;
-    min-height: 230px;
+    min-height: 212px;
 }
 
 .text-card-container p {
@@ -320,10 +316,12 @@ h2.preu {
 }
 
 .preu {
-    font-family: 'Pressura-Regular', sans-serif;
-    font-size:2.5rem;
-    align-items: center;
-    margin-bottom: 0.75rem;
+    font-family: 'Times', sans-serif;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0.25rem;
 }
 
 .bottom-card {
@@ -331,41 +329,11 @@ h2.preu {
     flex-direction: column;
     align-items: center;
     gap: 0.3rem;
-    margin: 0rem 0.75rem 0.75rem 0.75rem;
+    margin: 0.5rem 0.75rem 0.75rem 0.75rem;
+    gap: 1rem;
 }
 
 /* horaris */
-
-.nav-3 {
-    font-family: 'Pressura', sans-serif;
-    font-size: 24px;
-    letter-spacing: 1px;
-    justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    border-bottom: #1D1D1B solid 1px;
-    background-color: #F0F0F0;
-}
-
-.nav-3 ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-3 ul li {
-    list-style: none;
-}
-
-.nav-3 ul li a {
-    text-decoration: none;
-    color: #1D1D1B;
-}
-
-.nav-3 ul li a:hover {
-    color: #E08C5C;
-}
 
 .activelink2 a {
     background-color: #E08C5C;
@@ -442,36 +410,6 @@ ul.leaders span + span {
 
 /*Cartell*/
 
-.nav-4 {
-    font-family: 'Pressura', sans-serif;
-    font-size: 24px;
-    letter-spacing: 1px;
-    justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    border-bottom: #1D1D1B solid 1px;
-    background-color: #F0F0F0;
-}
-
-.nav-4 ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-4 ul li {
-    list-style: none;
-}
-
-.nav-4 ul li a {
-    text-decoration: none;
-    color: #1D1D1B;
-}
-
-.nav-4 ul li a:hover {
-    color: #92B1E6;
-}
 
 .activelink3 a {
     background-color: #C9D9F0;
@@ -507,7 +445,7 @@ ul.leaders span + span {
     font-size: 1.25rem;
     align-items: center;
     margin-bottom: 0.75rem;
-    color: #1D1D1B;
+    color: #E73B24;
 }
 
 .dia-container2 {
@@ -520,37 +458,49 @@ ul.leaders span + span {
 .djs-container {
     display: flex;
     flex-direction: row;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.djs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F0F0F0;
 }
 
 .dj {
     width: 100%;
-    padding: 1rem 1.5rem;
-    border-top: #1D1D1B 1px solid;
-    border-right: #1D1D1B 1px solid;
-    background-color: #C9D9F0;
+}
+
+.dj img {
+    height: 280px;
+    width: 100%;
 }
 
 .dj-name {
-    font-family: 'Pressura', sans-serif;
-    font-size: 28px;
-    margin-bottom: 1rem;
-}
-
-.day-name-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.day-name {
-    font-family: 'Pressura', sans-serif;
-    font-size: 28px;
-}
-
-.music-style {
     font-family: 'Pressura-Text', sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
+    background-color: #EFDF07;
+    color: #1D1D1B;
+    padding: 0.35rem 0.5rem;
+    margin-bottom: 0.5rem;
+    border: #1D1D1B 1px solid;
+}
 
+.bottom-cardj {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    text-transform: uppercase;
+}
+
+.day-name {
+    font-family: 'Pressura-Text', sans-serif;
+    font-size: 1rem;
+    border: #1D1D1B 1px solid;
+    padding: 0.15rem 0.25rem 0.25rem 0.25rem;
 }
 
 /*Info*/
@@ -683,10 +633,15 @@ ul.leaders span + span {
 
     .tickets-card {
         width: 100%;
+        max-width: 500px;
     }
 
     .img-card {
         height: 200px;
+    }
+
+    .text-card-container {
+        min-height: 0;
     }
 
     /*Horaris*/
