@@ -519,7 +519,7 @@ ul.leaders span + span {
 }
 
 .title-horaris3 {
-    color: #D892BB;
+    color: #E08C5C;
     font-family: 'Pressura', sans-serif;
     font-size: 1.25rem;
     align-items: center;
@@ -557,15 +557,28 @@ ul.leaders span + span {
         flex-direction: row;
     }
 
+    .main-title-style {
+        width: 9rem;
+        padding: 0.5rem;
+    }
+
+    .dates {
+        width: 4rem;
+        padding: 0.5rem;
+        line-height: 1rem;
+    }
+
+    #direccio {
+        width: 10rem;
+        padding: 0.5rem;
+        line-height: 1rem;
+    }
+
     p.time ,p.dates {
         height: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    
-    .main-title {
-        width: 100%;
     }
 
     .checkbtn {
@@ -616,7 +629,16 @@ ul.leaders span + span {
     .slider div {
         font-size: 3rem;
         letter-spacing: -0.5px;
+        height: 80px;
     }
+
+    .slider {
+        height: 100px;
+        padding-left: 15px;
+        overflow: hidden;
+    }
+
+    
 
     /*Tiquets*/
 
@@ -646,41 +668,6 @@ ul.leaders span + span {
 
     /*Horaris*/
 
-    .nav-3 {
-        height: 0;
-        padding: 0px;  
-        position: absolute;
-        left: 0;
-        right: 0;
-        width: 100vw;
-        background-color: #F0F0F0;
-        transition: 0.5s;  
-        overflow: hidden;  
-        border-bottom: #1D1D1B 1px solid;
-    }
-
-    .nav-3 ul {
-        display: flex;
-        flex-direction: column;
-        width: fit-content;
-        margin: 20px auto 20px auto;
-        text-align: center;
-        transition: 0.5s;
-        opacity: 0;
-    }  
-
-    .nav-3 ul li {
-        margin-bottom: 1rem;
-    }
-    
-    .nav-3.active {
-        height: auto;
-    }
-
-    .nav-3.active ul {
-        opacity: 1;
-    }
-
     .activelink2 {
         margin: 0 auto;
     }
@@ -691,40 +678,6 @@ ul.leaders span + span {
 
     /*Cartell*/
 
-    .nav-4 {
-        height: 0;
-        padding: 0px;  
-        position: absolute;
-        left: 0;
-        right: 0;
-        width: 100vw;
-        background-color: #F0F0F0;
-        transition: 0.5s;  
-        overflow: hidden;  
-        border-bottom: #1D1D1B 1px solid;
-    }
-
-    .nav-4 ul {
-        display: flex;
-        flex-direction: column;
-        width: fit-content;
-        margin: 20px auto 20px auto;
-        text-align: center;
-        transition: 0.5s;
-        opacity: 0;
-    }  
-
-    .nav-4 ul li {
-        margin-bottom: 1rem;
-    }
-    
-    .nav-4.active {
-        height: auto;
-    }
-
-    .nav-4.active ul {
-        opacity: 1;
-    }
 
     .activelink3 {
         margin: 0 auto;
@@ -746,7 +699,6 @@ ul.leaders span + span {
     .djs-container {
         display: flex;
         flex-direction: column;
-        background-color: #C9D9F0;
         align-items: center;
     }
 
@@ -758,7 +710,6 @@ ul.leaders span + span {
         width: 100%;
         padding: 1rem 2rem;
     }
-    
 
     }
     
