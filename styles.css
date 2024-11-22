@@ -38,6 +38,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Wagen';
+    src: url('fonts/KMR-Waldenburg-Buch.woff2') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wagen-bold';
+    src: url('fonts/KMR-Waldenburg-Fett.woff2') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 * {
     margin: 0;
@@ -80,11 +94,11 @@ a {
     text-decoration: none;
     color: #1D1D1B;
     padding: 0.1rem 0.4rem 0.2rem 0.4rem;
-    border: #FFFFFF 1px solid;
+    border: transparent 1px solid;
 }
 
 .nav-1 ul li a:hover {
-    color: #E73B24;
+    color: #E84C13;
     border: #1D1D1B solid 1px;
     padding: 0.1rem 0.4rem 0.2rem 0.4rem;
 }
@@ -194,7 +208,7 @@ p {
     height: 70px;
     margin-bottom: 20px;
     text-align: center;
-    font-family: 'Times', sans-serif;
+    font-family: 'Wagen-Bold', sans-serif;
     color: #EFDF07;
     text-shadow:  
         1px 1px 0 black,   /* Bottom-right */
@@ -202,7 +216,7 @@ p {
         1px -1px 0 black,  /* Top-right */
         -1px -1px 0 black; /* Top-left */
     font-size: 6rem;
-    letter-spacing: -1.5px;
+    letter-spacing: -3px;
 }
 
 
@@ -219,8 +233,8 @@ p {
 
 
 #btn:hover {
-    background-color: #E73B24;
-    color: #1D1D1B;
+    background-color: #E84C13;
+    color: #FFFFFF;
     cursor: url("img/PgECor.png") 0 0, pointer;
 }
 
@@ -241,7 +255,8 @@ p {
 /* tiquets */
 
 .activelink a {
-    background-color: #EFDF07;
+    background-color: #E84C13;
+
 }   
 
 .tickets-container {
@@ -263,10 +278,11 @@ p {
 }
 
 .card-title {
-    font-family: 'Pressura', sans-serif;
+    font-family: 'Wagen', sans-serif;
     text-transform: uppercase;
     font-size: 1.75rem;
-    margin-bottom: 1rem;
+    text-align: center;
+    margin: 1.5rem 0rem;
     color: #1D1D1B;
 }
 
@@ -277,19 +293,44 @@ p {
     height: 10px;
 }
 
+.text-card {
+    font-family: 'Pressura-Text', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+.text-card-container {
+    padding: 0.5rem;
+}
+
+.text-card-container p {
+    margin-bottom: 1rem;
+    margin-top: 0.37rem;
+}
+
+.bottom-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    align-items: center;
+}
+
 .btn-2 {
     font-family: 'Pressura-Text', sans-serif;
     font-size: 1rem;
-    background-color: #1D1D1B;
-    padding: 0.75rem 2rem;
-    border: #1D1D1B solid 1px;
-    transition: border-radius 0.2s ease;
+    padding: 0.5rem 1rem;
+    border: none;
     color: #FFFFFF;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.1rem;
+    width: 100%;
+    text-align: left;
+    border-top: #1D1D1B solid 1px;
+    border-right: #1D1D1B solid 1px;
+    background-color: #1D1D1B;
 }
 
 .btn-2:hover {
-    background-color: #EFDF07;
+    background-color: #E84C13;
     cursor: pointer;
     color: #1D1D1B;
 }
@@ -298,50 +339,28 @@ p {
     width: 100%;
 }
 
-.text-card {
-    font-family: 'Pressura-Text', sans-serif;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-}
-
-.text-card-container {
-    padding: 0.25rem 0.5rem;
-}
-
-.text-card-container p {
-    margin-bottom: 1rem;
-    margin-top: 0.37rem;
-}
-
 .preu {
-    font-family: 'Pressura-Medium', sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Pressura-Text', sans-serif;
+    font-size: 1rem;
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    gap: 0.25rem;
-    margin-bottom: 1.75rem;
-}
-
-.bottom-card {
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-    margin: 0.5rem 0.75rem 0.75rem 0.75rem;
-    gap: 1rem;
-    margin-top: auto;
+    gap: 0.15rem;
+    border-top: #1D1D1B 1px solid;
+    color: #1D1D1B;
+    padding: 0.5rem 1rem;
 }
 
 /* horaris */
 
 .activelink2 a {
-    background-color: #E08C5C;
+    background-color: #E84C13;
     padding: 0.1rem 0.4rem;
     border-radius: 0.3rem; 
 }
 
 .activelink2 a:hover {
-    background-color:#F1A893;
+    background-color:#E84C13;
     color: #1D1D1B;
     border-radius: 0rem;
 }
@@ -367,7 +386,7 @@ p {
     font-size: 1.25rem;
     align-items: center;
     margin-bottom: 0.75rem;
-    color: #E73B24;
+    color: #E84C13;
 }
 
 ul.leaders {
@@ -518,7 +537,7 @@ ul.leaders span + span {
 }
 
 .title-horaris3 {
-    color: #E73B24;
+    color: #E84C13;
     font-family: 'Pressura', sans-serif;
     font-size: 1.25rem;
     align-items: center;
