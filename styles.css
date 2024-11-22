@@ -186,21 +186,26 @@ p {
 }
 
 .slider {
-    height: 100px;
-    padding-left: 15px;
+    height: 99px;
     overflow: hidden;
 }
 
 .slider div {
     height: 70px;
     margin-bottom: 20px;
-    padding: 2px 15px;
     text-align: center;
     font-family: 'Times', sans-serif;
     color: #EFDF07;
+    text-shadow:  
+        1px 1px 0 black,   /* Bottom-right */
+        -2px 2px 0 black,  /* Bottom-left */
+        1px -1px 0 black,  /* Top-right */
+        -1px -1px 0 black; /* Top-left */
     font-size: 6rem;
     letter-spacing: -1.5px;
 }
+
+
 
 #btn {
     font-family: 'Pressura-Medium', sans-serif;
@@ -214,8 +219,8 @@ p {
 
 
 #btn:hover {
-    background-color: #1D1D1B;
-    color: #F0F0F0;
+    background-color: #E73B24;
+    color: #1D1D1B;
     cursor: url("img/PgECor.png") 0 0, pointer;
 }
 
@@ -251,6 +256,7 @@ p {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    background-color: #F0F0F0;
 }
 
 .tickets-card {
@@ -267,9 +273,11 @@ p {
 
 .card-title {
     font-family: 'Times', sans-serif;
-    font-size: 2rem;
+    font-size: 5rem;
+    line-height: 5rem;
     margin-bottom: 1rem;
     letter-spacing: -1px;
+    color: #E73B24;
 }
 
 .puntitos {
@@ -283,7 +291,7 @@ p {
     font-family: 'Pressura-Medium', sans-serif;
     font-size: 1rem;
     background-color: #EFDF07;
-    padding: 0.5rem 2rem;
+    padding: 1rem 2rem;
     border: #1D1D1B solid 1px;
     width: 100%; 
     transition: border-radius 0.2s ease;
@@ -307,7 +315,7 @@ p {
 
 .text-card-container {
     padding: 0.25rem 0.5rem;
-    min-height: 212px;
+    min-height: 340px;
 }
 
 .text-card-container p {
@@ -368,7 +376,7 @@ p {
     font-size: 1.25rem;
     align-items: center;
     margin-bottom: 0.75rem;
-    color: #E08C5C;
+    color: #E73B24;
 }
 
 ul.leaders {
@@ -519,7 +527,7 @@ ul.leaders span + span {
 }
 
 .title-horaris3 {
-    color: #E08C5C;
+    color: #E73B24;
     font-family: 'Pressura', sans-serif;
     font-size: 1.25rem;
     align-items: center;
@@ -630,6 +638,11 @@ ul.leaders span + span {
         font-size: 3rem;
         letter-spacing: -0.5px;
         height: 80px;
+        text-shadow:  
+        0.5px 0.5px 0 black,   /* Bottom-right */
+        -1px 1px 0 black,  /* Bottom-left */
+        0.5px -0.5px 0 black,  /* Top-right */
+        -0.5px -0.5px 0 black;
     }
 
     .slider {
@@ -654,7 +667,7 @@ ul.leaders span + span {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 1rem;
+        padding: 3rem;
     }
 
     .tickets-card {
