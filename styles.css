@@ -80,13 +80,13 @@ a {
     text-decoration: none;
     color: #1D1D1B;
     padding: 0.1rem 0.4rem 0.2rem 0.4rem;
+    border: #FFFFFF 1px solid;
 }
 
 .nav-1 ul li a:hover {
-    color: #EFDF07;
-    background-color: #1D1D1B;
+    color: #E73B24;
+    border: #1D1D1B solid 1px;
     padding: 0.1rem 0.4rem 0.2rem 0.4rem;
-    border-radius: 0.25rem;
 }
 
 .checkbtn {
@@ -208,7 +208,7 @@ p {
 
 
 #btn {
-    font-family: 'Pressura-Medium', sans-serif;
+    font-family: 'Pressura-Text', sans-serif;
     font-size: 1rem;
     padding: 0.85rem 1rem 1rem 1rem;
     letter-spacing: 0.15rem;
@@ -240,16 +240,9 @@ p {
 
 /* tiquets */
 
-.activelink {
-    background-color: #D8C994;
-    padding: 0.1rem 0.4rem;
-    border-radius: 0.3rem;
-}
-
-.activelink:hover {
-    background-color: #E3DECB;
-    border-radius: 0px;
-}
+.activelink a {
+    background-color: #EFDF07;
+}   
 
 .tickets-container {
     padding: 40px;
@@ -257,50 +250,48 @@ p {
     justify-content: center;
     gap: 2rem;
     background-color: #F0F0F0;
+    height: 100%;
 }
 
 .tickets-card {
-    background-color: #EFDF07;
     border: #1D1D1B 1px solid;
     width: 300px;
     display: flex;
     flex-direction: column;
-}
-
-.img-card {
-    height: 274px;
+    background-color: #FFFFFF;
+    height: 491px;
 }
 
 .card-title {
-    font-family: 'Times', sans-serif;
-    font-size: 5rem;
-    line-height: 5rem;
+    font-family: 'Pressura', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.75rem;
     margin-bottom: 1rem;
-    letter-spacing: -1px;
-    color: #E73B24;
+    color: #1D1D1B;
 }
 
 .puntitos {
-    background: radial-gradient(circle, #1D1D1B 20%, transparent 1%) center/5px 5px;
+    background: radial-gradient(circle, #1D1D1B 15%, transparent 1%) center/5px 5px;
     background-size: 8px 25px;
     background-position: center;
     height: 10px;
 }
 
 .btn-2 {
-    font-family: 'Pressura-Medium', sans-serif;
+    font-family: 'Pressura-Text', sans-serif;
     font-size: 1rem;
-    background-color: #EFDF07;
-    padding: 1rem 2rem;
+    background-color: #1D1D1B;
+    padding: 0.75rem 2rem;
     border: #1D1D1B solid 1px;
-    width: 100%; 
     transition: border-radius 0.2s ease;
-    color: #1D1D1B;
+    color: #FFFFFF;
+    letter-spacing: 0.15rem;
 }
 
 .btn-2:hover {
-    background-color: #F0F0F0;
+    background-color: #EFDF07;
     cursor: pointer;
+    color: #1D1D1B;
 }
 
 .button-link {
@@ -315,7 +306,6 @@ p {
 
 .text-card-container {
     padding: 0.25rem 0.5rem;
-    min-height: 340px;
 }
 
 .text-card-container p {
@@ -324,21 +314,22 @@ p {
 }
 
 .preu {
-    font-family: 'Times', sans-serif;
-    font-size: 3rem;
+    font-family: 'Pressura-Medium', sans-serif;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: baseline;
     gap: 0.25rem;
+    margin-bottom: 1.75rem;
 }
 
 .bottom-card {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 0.3rem;
     margin: 0.5rem 0.75rem 0.75rem 0.75rem;
     gap: 1rem;
+    margin-top: auto;
 }
 
 /* horaris */
@@ -659,9 +650,6 @@ ul.leaders span + span {
 
     /*Tiquets*/
 
-    .activelink {
-        margin: 0 auto;
-    }
 
     .tickets-container {
         display: flex;
