@@ -29,8 +29,8 @@ function updateButton() {
     const button = document.getElementById("btn");
 
     if (window.innerWidth <= 768) {
-        button.innerHTML = '<i class="fa-solid fa-ticket"></i>';
-        button.style.padding = "14px 20px";
+        button.innerHTML = "entrades";
+        button.style.padding = "20px 20px";
         button.style.fontSize = "14px";
     } else {
         button.textContent = "COMPRA LA TEVA ENTRADA";
