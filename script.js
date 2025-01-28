@@ -30,9 +30,9 @@ function updateButton() {
 
     if (window.innerWidth <= 768) {
         button.innerHTML = "compra la teva entrada";
-        button.style.padding = "20px 14px";
+        button.style.padding = "14px 48px";
     } else {
-        button.textContent = "COMPRA LA TEVA ENTRADA";
+        button.textContent = "compra la teva entrada";
         button.style.padding = "15px 24px";
     }
     }
