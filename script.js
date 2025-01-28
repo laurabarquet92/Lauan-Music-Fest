@@ -29,13 +29,11 @@ function updateButton() {
     const button = document.getElementById("btn");
 
     if (window.innerWidth <= 768) {
-        button.innerHTML = "entrades";
-        button.style.padding = "20px 0px";
-        button.style.fontSize = "14px";
+        button.innerHTML = "compra la teva entrada";
+        button.style.padding = "20px 14px";
     } else {
         button.textContent = "COMPRA LA TEVA ENTRADA";
         button.style.padding = "15px 24px";
-        button.style.fontSize = "16px";
     }
     }
 
