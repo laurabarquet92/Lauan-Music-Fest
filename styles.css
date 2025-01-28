@@ -126,6 +126,10 @@ p {
     letter-spacing: 2px;
 } 
 
+.main-title-style :hover {
+    color: #E94E1B;
+} 
+
 .main-title :hover {
     color: #E94E1B;
 }
@@ -182,14 +186,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -0.15rem;
-}
-
-.overlay-content {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: -0.10rem;
 }
 
 #btn {
@@ -598,9 +595,6 @@ ul.leaders span + span {
         flex-direction: column;
     }
 
-    .main-title-style {
-        margin-bottom: 0.2rem;
-    }
 
     p.time ,p.dates {
         height: 30px;
@@ -626,9 +620,8 @@ ul.leaders span + span {
     .image-containter {
     height: calc(100vh - 6.3rem);
     height: calc(100dvh - 6.3rem);
-    background-image: url("img/cover.svg");
-    background-size: contain;
-    margin-top: 0rem;
+    background-image: url("img/cover2.svg");
+    margin-top: 1.5rem;
 }
 
     .nav-1 {
@@ -670,7 +663,6 @@ ul.leaders span + span {
         padding: 0rem 0.5rem;
         gap: 1rem;
     }
-
 
     /*Tiquets*/
 
