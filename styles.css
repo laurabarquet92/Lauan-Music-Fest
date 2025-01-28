@@ -127,8 +127,7 @@ p {
 } 
 
 .main-title :hover {
-    background-color: #1D1D1B;
-    color: #F0F0F0;
+    color: #E94E1B;
 }
 
 .info-container {
@@ -596,24 +595,11 @@ ul.leaders span + span {
 @media (max-width: 768px) {
 
     .header {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .main-title-style {
-        width: 9rem;
-        padding: 0.5rem;
-    }
-
-    .dates {
-        width: 4rem;
-        padding: 0.5rem;
-        line-height: 1rem;
-    }
-
-    #direccio {
-        width: 10rem;
-        padding: 0.5rem;
-        line-height: 1rem;
+        margin-bottom: 0.2rem;
     }
 
     p.time ,p.dates {
@@ -621,6 +607,10 @@ ul.leaders span + span {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    #btn {
+        margin: 1rem 0rem;
     }
 
     .checkbtn {
@@ -632,6 +622,14 @@ ul.leaders span + span {
         padding-top: 0.5rem;
         padding-bottom: 0.65rem;
     }
+
+    .image-containter {
+    height: calc(100vh - 6.3rem);
+    height: calc(100dvh - 6.3rem);
+    background-image: url("img/cover.svg");
+    background-size: contain;
+    margin-top: 0rem;
+}
 
     .nav-1 {
         height: 0;
@@ -668,28 +666,11 @@ ul.leaders span + span {
         opacity: 1;
     }
 
-    .slider div {
-        font-size: 3rem;
-        letter-spacing: -0.5px;
-        height: 80px;
-        text-shadow:  
-        0.5px 0.5px 0 black,   /* Bottom-right */
-        -1px 1px 0 black,  /* Bottom-left */
-        0.5px -0.5px 0 black,  /* Top-right */
-        -0.5px -0.5px 0 black;
-    }
-
-    .slider {
-        height: 100px;
-        padding-left: 15px;
-        overflow: hidden;
-    }
-
     #countdown {
         padding: 0rem 0.5rem;
         gap: 1rem;
     }
-    
+
 
     /*Tiquets*/
 
