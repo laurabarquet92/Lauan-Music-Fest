@@ -193,27 +193,6 @@ p {
     justify-content: center;
 }
 
-.slider {
-    height: 99px;
-    overflow: hidden;
-}
-
-.slider div {
-    height: 70px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 800;
-    color: #E94E1B;
-    text-shadow:  
-        1px 1px 0 black,   /* Bottom-right */
-        -2px 2px 0 black,  /* Bottom-left */
-        1px -1px 0 black,  /* Top-right */
-        -1px -1px 0 black; /* Top-left */
-    font-size: 6rem;
-    letter-spacing: -3px;
-}
-
 #btn {
     font-family: 'Pressura-Text', sans-serif;
     font-size: 1rem;

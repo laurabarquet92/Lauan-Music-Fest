@@ -30,7 +30,7 @@ function updateButton() {
 
     if (window.innerWidth <= 768) {
         button.innerHTML = "entrades";
-        button.style.padding = "20px 20px";
+        button.style.padding = "20px 0px";
         button.style.fontSize = "14px";
     } else {
         button.textContent = "COMPRA LA TEVA ENTRADA";
