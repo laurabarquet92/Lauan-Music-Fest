@@ -31,20 +31,12 @@
 }
 
 @font-face {
-    font-family: 'Times';
-    src: url('fonts/Times\ New\ Roman\ MT\ Condensed.woff') format('woff'),
-        url('fonts/Times\ New\ Roman\ MT\ Condensed.woff') format('woff');
+    font-family: 'Bacalar';
+    src: url('fonts/Bacalar-Regular.otf') format('otf'),
+        url('fonts/Bacalar-Regular.otf') format('otf');
     font-weight: 400;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Wagen';
-    src: url('fonts/KMR-Waldenburg-Buch.woff2') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
 
 * {
     margin: 0;
@@ -126,14 +118,6 @@ p {
     letter-spacing: 2px;
 } 
 
-.main-title-style :hover {
-    color: #E94E1B;
-} 
-
-.main-title :hover {
-    color: #E94E1B;
-}
-
 .info-container {
     display: flex;
     flex-direction: column;
@@ -186,7 +170,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -0.10rem;
+    margin-top: -0.15rem;
 }
 
 #btn {
@@ -257,11 +241,11 @@ p {
 }   
 
 .tickets-container {
-    padding: 40px;
     display: flex;
     justify-content: center;
     gap: 2rem;
     background-color: #F0F0F0;
+    padding: 5rem 0rem 2rem 0rem;
 }
 
 .tickets-card {
@@ -270,12 +254,24 @@ p {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    height: 491px;
+    height: 400px;
+}
+
+.concepte {
+    padding: 0rem 3rem;
+}
+
+.content-tickets {
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F0;
+    align-items: center;
+    padding-bottom: 3rem;
 }
 
 .card-title {
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 400;
+    font-family: 'Pressura-Bold', sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 1.75rem;
     text-align: center;
@@ -318,7 +314,7 @@ p {
     font-size: 1rem;
     padding: 0.5rem 1rem;
     border: none;
-    color: #FFFFFF; /* Initial text color */
+    color: #FFFFFF; 
     letter-spacing: 0.1rem;
     width: 100%;
     text-align: left;
@@ -462,8 +458,7 @@ ul.leaders span + span {
 
     
 .main-title :hover {
-    background-color: #1D1D1B;
-    color: #F0F0F0;
+    color: #E94E1B;
 }
 
 .cartell-container {
@@ -595,6 +590,9 @@ ul.leaders span + span {
         flex-direction: column;
     }
 
+    .main-title-style {
+        font-size: 1.5rem;
+    }
 
     p.time ,p.dates {
         height: 30px;

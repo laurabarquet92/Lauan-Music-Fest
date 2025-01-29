@@ -31,11 +31,9 @@ function updateButton() {
     if (window.innerWidth <= 768) {
         button.innerHTML = "compra la teva entrada";
         button.style.padding = "14px 20px";
-        button.font.size = "14px";
     } else {
         button.textContent = "compra la teva entrada";
         button.style.padding = "15px 24px";
-        button.font.size = "16px";
     }
     }
 
