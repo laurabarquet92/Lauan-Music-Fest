@@ -103,6 +103,7 @@ p {
     justify-content: space-between;
     border-bottom: #1D1D1B 1px solid;
     align-items: center;
+    padding: 1rem;
 }
 
 .main-title {
@@ -114,7 +115,7 @@ p {
 .main-title-style {
     font-family: 'Pressura', sans-serif;
     font-size: 1rem;
-    padding: 0.85rem 1rem 1rem 1rem;
+    padding: 0.85rem 0rem 1rem 0rem;
     letter-spacing: 2px;
 } 
 
@@ -150,10 +151,10 @@ p {
 }
 
 .time {
-    font-family: 'Pressura-Text', sans-serif;
+    font-family: 'Pressura', sans-serif;
     color: #1D1D1B;
     display: flex;
-    font-size: 0.75rem;
+    font-size: 1.75rem;
     width: 100%;
 }
 
@@ -601,8 +602,8 @@ ul.leaders span + span {
         justify-content: center;
     }
 
-    #btn {
-        margin: 1rem 0rem;
+    #countdown {
+        margin: 1rem;
     }
 
     .checkbtn {
