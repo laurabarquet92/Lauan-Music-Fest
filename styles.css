@@ -103,7 +103,7 @@ p {
     justify-content: space-between;
     border-bottom: #1D1D1B 1px solid;
     align-items: center;
-    padding: 1rem;
+    padding: 0rem 0rem 0rem 1rem;
 }
 
 .main-title {
@@ -114,8 +114,8 @@ p {
 
 .main-title-style {
     font-family: 'Pressura', sans-serif;
-    font-size: 1rem;
-    padding: 0.85rem 0rem 1rem 0rem;
+    font-size: 1.25rem;
+    padding: 0.65rem 0rem 0.80rem 0rem;
     letter-spacing: 2px;
 } 
 
@@ -147,31 +147,34 @@ p {
 
 .countdown-item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .time {
     font-family: 'Pressura', sans-serif;
     color: #1D1D1B;
     display: flex;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     width: 100%;
 }
 
 #countdown p {
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 .image-containter {
     height: calc(100vh - 6.3rem);
     height: calc(100dvh - 6.3rem);
-    background-image: url("img/cover.svg");
+    background-image: url("img/cover-bona.svg");
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -0.15rem;
+    margin-top: 0rem;
+    background-color: #F0F0F0;
 }
 
 #btn {
@@ -589,6 +592,7 @@ ul.leaders span + span {
 
     .header {
         flex-direction: column;
+        padding: 0rem;
     }
 
     .main-title-style {
@@ -602,8 +606,22 @@ ul.leaders span + span {
         justify-content: center;
     }
 
-    #countdown {
-        margin: 1rem;
+    .countdown-item {
+        display: flex;
+        flex-direction: column;
+        gap: 0.15rem;
+    }
+
+    .time {
+        font-size: 1rem;
+    }
+    
+    #countdown p {
+        font-size: 0.75rem;
+    }
+
+    #btn {
+        margin-bottom: 1rem;
     }
 
     .checkbtn {
@@ -619,8 +637,7 @@ ul.leaders span + span {
     .image-containter {
     height: calc(100vh - 6.3rem);
     height: calc(100dvh - 6.3rem);
-    background-image: url("img/cover2.svg");
-    margin-top: 1.5rem;
+    background-image: url("img/cover-mobile.svg");
 }
 
     .nav-1 {
@@ -659,8 +676,7 @@ ul.leaders span + span {
     }
 
     #countdown {
-        padding: 0rem 0.5rem;
-        gap: 1rem;
+        margin: 0.75rem 0rem 1.75rem 0rem;
     }
 
     /*Tiquets*/
