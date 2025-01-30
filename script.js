@@ -29,10 +29,10 @@ function updateButton() {
     const button = document.getElementById("btn");
 
     if (window.innerWidth <= 768) {
-        button.innerHTML = "compra la teva entrada";
+        button.innerHTML = "COMPRA LA TEVA ENTRADA";
         button.style.padding = "14px 20px";
     } else {
-        button.textContent = "compra la teva entrada";
+        button.textContent = "COMPRA LA TEVA ENTRADA";
         button.style.padding = "15px 24px";
     }
     }
