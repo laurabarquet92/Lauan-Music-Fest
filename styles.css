@@ -261,6 +261,7 @@ p {
 
 .concepte {
     padding: 0rem 3rem;
+    text-align: center;
 }
 
 .content-tickets {
@@ -301,7 +302,7 @@ p {
 
 .text-card-container p {
     margin-bottom: 1rem;
-    margin-top: 0.37rem;
+    margin-top: 0.45rem;
 }
 
 .bottom-card {
@@ -314,7 +315,7 @@ p {
 .btn-2 {
     font-family: 'Pressura-Text', sans-serif;
     font-size: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     border: none;
     color: #FFFFFF; 
     letter-spacing: 0.1rem;
@@ -350,7 +351,6 @@ p {
     color: #FFFFFF; 
 }
 
-
 .button-link {
     width: 100%;
 }
@@ -364,7 +364,7 @@ p {
     gap: 0.15rem;
     border-top: #1D1D1B 1px solid;
     color: #1D1D1B;
-    padding: 0.5rem 1rem;
+    padding: 1rem;
 }
 
 /* horaris */
@@ -500,7 +500,7 @@ ul.leaders span + span {
 }
 
 .dj-name {
-    font-family: 'Pressura-Bold', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
     padding: 0.35rem 0.5rem;
@@ -511,7 +511,7 @@ ul.leaders span + span {
 
 .bottom-cardj {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 0.5rem;
     text-transform: uppercase;
 }
@@ -664,8 +664,12 @@ ul.leaders span + span {
 
     .tickets-card {
         width: 100%;
-        max-width: 500px;
+        max-width: 288px;
         height: auto;
+    }
+
+    .text-card-container {
+        margin-bottom: 2rem;
     }
 
     /*Horaris*/
