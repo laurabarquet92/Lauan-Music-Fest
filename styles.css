@@ -408,7 +408,7 @@ p {
 }
 
 ul.leaders {
-    max-width: 40em;
+    max-width: 40rem;
     padding: 0;
     overflow-x: hidden;
     list-style: none;
@@ -638,7 +638,7 @@ ul.leaders span + span {
     height: calc(100vh - 6.3rem);
     height: calc(100dvh - 6.3rem);
     background-image: url("img/cover-mobile.svg");
-    background-size: 100% auto; /* Ensures the width fits the screen, height adjusts accordingly */
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center top;
 }

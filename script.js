@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", () => {
+    countdown(); // Executa la funció una vegada immediatament
+    x = setInterval(countdown, 1000); // Inicia el comptador cada segon
+});
+
+let x; // Declara `x` globalment
+
 function countdown() {
     const targetDate = new Date("May 23, 2025 18:30:00").getTime();
     const now = new Date().getTime();
@@ -18,10 +25,6 @@ function countdown() {
         document.getElementById("countdown").innerHTML = "Countdown Complete!";
     }
 }
-
-const x = setInterval(countdown, 1000);
-
-
 
 /*Button change header*/
 
