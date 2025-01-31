@@ -32,10 +32,10 @@ function updateButton() {
     const button = document.getElementById("btn");
 
     if (window.innerWidth <= 768) {
-        button.innerHTML = "COMPRA LA TEVA ENTRADA";
+        button.innerHTML = "Compra la teva entrada";
         button.style.padding = "14px 20px";
     } else {
-        button.textContent = "COMPRA LA TEVA ENTRADA";
+        button.textContent = "Compra la teva entrada";
         button.style.padding = "1.25rem 2rem";
     }
     }

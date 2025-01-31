@@ -159,20 +159,19 @@ p {
     width: 100%;
 }
 
-#countdown p {
+#countdown {
     font-size: 1rem;
 }
 
 .image-containter {
-    height: calc(100vh - 6.3rem);
-    height: calc(100dvh - 6.3rem);
-    background-image: url("img/cover-bona.svg");
+    height: calc(100vh - 1rem);
+    height: calc(100dvh - 1rem);
+    background-image: url("img/cover\ png.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 0rem;
     background-color: #F0F0F0;
 }
 
@@ -444,6 +443,10 @@ ul.leaders span + span {
 
 /*Cartell*/
 
+.main-title :hover {
+    color: #E94E1B;
+}
+
 .activelink3 a {
     background-color: #C9D9F0;
     padding: 0.1rem 0.4rem;
@@ -457,26 +460,25 @@ ul.leaders span + span {
     border-radius: 0rem;
 }
 
-.title-cartell {
-    text-align: center;
+.artistes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #F0F0F0;
-}    
-
-.title-cartell h4 {
-    font-family: 'Pressura', sans-serif;
-    font-size: 1.25rem;
-    color: #E94E1B;
-    padding: 2rem;
+    padding: 3rem;
+    gap: 2rem;
 }
 
-.main-title :hover {
+.artistes h4 {
+    font-family: 'Pressura', sans-serif;
+    font-size: 1.25rem;
     color: #E94E1B;
 }
 
 .djs-container {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -484,36 +486,35 @@ ul.leaders span + span {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #F0F0F0;
-    padding: 0rem 3rem;
 }
 
 .dj {
-    width: 100%;
+    width: 320px;
 }
 
 .dj img {
-    height: 280px;
+    height: 320px;
     width: 100%;
     border: #1D1D1B 1px solid;
     margin-bottom: 0.25rem;
 }
 
 .dj-name {
-    font-family: 'Arial', sans-serif;
-    font-size: 1rem;
+    font-family: 'Pressura-Medium', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.15rem;
     text-transform: uppercase;
     padding: 0.35rem 0.5rem;
     margin-bottom: 0.5rem;
     border: #1D1D1B 1px solid;
-    color: #E94E1B;
+    color: #1D1D1B;
 }
 
 .bottom-cardj {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    text-transform: uppercase;
+    
 }
 
 .day-name {
