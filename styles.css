@@ -62,7 +62,7 @@ a {
     font-size: 1.25rem;
     letter-spacing: 1px;
     justify-content: space-between;
-    padding: 0.75rem 0.6rem 0.75rem 0.6rem; 
+    padding: 1rem 0.6rem; 
     border-bottom: #1D1D1B 1px solid;
 }
 
@@ -115,7 +115,6 @@ p {
 .main-title-style {
     font-family: 'Pressura', sans-serif;
     font-size: 1.25rem;
-    padding: 0.65rem 0rem 0.80rem 0rem;
     letter-spacing: 2px;
 } 
 
@@ -180,7 +179,6 @@ p {
 #btn {
     font-family: 'Pressura-Text', sans-serif;
     font-size: 1rem;
-    padding: 0.85rem 1rem 1rem 1rem;
     letter-spacing: 0.15rem;
     color: #FFFFFF;
     background-color: #1D1D1B;
@@ -446,7 +444,6 @@ ul.leaders span + span {
 
 /*Cartell*/
 
-
 .activelink3 a {
     background-color: #C9D9F0;
     padding: 0.1rem 0.4rem;
@@ -460,41 +457,27 @@ ul.leaders span + span {
     border-radius: 0rem;
 }
 
-    
-.main-title :hover {
-    color: #E94E1B;
-}
-
-.cartell-container {
-    padding: 3rem 15rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2rem;
+.title-cartell {
+    text-align: center;
     background-color: #F0F0F0;
-    justify-content: space-between;
-}
+}    
 
-.title-horaris2 {
+.title-cartell h4 {
     font-family: 'Pressura', sans-serif;
     font-size: 1.25rem;
-    align-items: center;
-    margin-bottom: 0.75rem;
     color: #E94E1B;
+    padding: 2rem;
 }
 
-.dia-container2 {
-    width: 450px;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.main-title :hover {
+    color: #E94E1B;
 }
 
 .djs-container {
     display: flex;
     flex-direction: row;
-    margin: 1rem;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .djs {
@@ -502,6 +485,7 @@ ul.leaders span + span {
     flex-direction: column;
     width: 100%;
     background-color: #F0F0F0;
+    padding: 0rem 3rem;
 }
 
 .dj {
@@ -540,19 +524,6 @@ ul.leaders span + span {
 }
 
 /*Info*/
-
-.activelink4 a {
-    background-color: #E94E1B;
-    padding: 0.1rem 0.4rem;
-    border-radius: 0.3rem; 
-    color: #1D1D1B;
-}
-
-.activelink4 a:hover {
-    background-color:#E94E1B;
-    color: #1D1D1B;
-    border-radius: 0rem;
-}
 
 .title-horaris3 {
     color: #E94E1B;
@@ -664,6 +635,7 @@ ul.leaders span + span {
         text-align: center;
         transition: 0.5s;
         opacity: 0;
+        gap: 0.25rem;
     }  
 
     .nav-1 ul li {
@@ -698,47 +670,26 @@ ul.leaders span + span {
 
     /*Horaris*/
 
-    .activelink2 {
-        margin: 0 auto;
-    }
-
     .dia-container {
         width: 100%;
     }
 
     /*Cartell*/
 
-
-    .activelink3 {
-        margin: 0 auto;
-    }
-
-    .cartell-container {
-        padding: 3rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        background-color: #F0F0F0;
-    }
-
-    .dia-container2 {
-        width: 100%;
-    }
-
     .djs-container {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 2rem;
     }
 
     .djs-container img {
         width: 100%;
     }
 
-    .dj {
+    .djs {
         width: 100%;
-        padding: 1rem 2rem;
+        padding: 0rem 2rem;
     }
 
     }

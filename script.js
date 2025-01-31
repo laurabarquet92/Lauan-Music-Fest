@@ -36,7 +36,7 @@ function updateButton() {
         button.style.padding = "14px 20px";
     } else {
         button.textContent = "COMPRA LA TEVA ENTRADA";
-        button.style.padding = "15px 24px";
+        button.style.padding = "1.25rem 2rem";
     }
     }
 
