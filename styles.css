@@ -246,7 +246,6 @@ p {
     justify-content: center;
     gap: 2rem;
     background-color: #F0F0F0;
-    padding: 5rem 0rem 2rem 0rem;
 }
 
 .tickets-card {
@@ -259,8 +258,10 @@ p {
 }
 
 .concepte {
-    padding: 0rem 3rem;
-    text-align: center;
+    padding: 3rem;
+    font-size: 0.90rem;
+    width: 900px;
+    line-height: 1.35rem;
 }
 
 .content-tickets {
@@ -272,14 +273,14 @@ p {
 }
 
 .card-title {
-    font-family: 'Pressura-Bold', sans-serif;
-    font-weight: 600;
+    font-family: 'Pressura', sans-serif;
     text-transform: uppercase;
     font-size: 1.75rem;
     text-align: center;
     margin: 1.5rem 0rem;
     color: #1D1D1B;
     padding: 0rem 1rem;
+    letter-spacing: 2px;
 }
 
 .puntitos {
@@ -680,6 +681,10 @@ ul.leaders span + span {
     }
 
     /*Cartell*/
+
+    .artistes h4 {
+        width: 320px;
+    }
 
     .djs-container {
         display: flex;
