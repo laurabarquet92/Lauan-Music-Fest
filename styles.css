@@ -107,12 +107,12 @@ p {
 }
 
 .main-title {
-    color: #5A5453;
+    color: #1D1D1B;
     text-decoration: none;
 }
 
 .main-title-style {
-    font-family: 'Pressura-Medium', sans-serif;
+    font-family: 'Pressura', sans-serif;
     font-size: 1.25rem;
     letter-spacing: 2px;
 } 
