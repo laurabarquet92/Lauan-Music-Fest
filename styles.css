@@ -152,15 +152,11 @@ p {
 }
 
 .time {
-    font-family: 'Pressura', sans-serif;
+    font-family: 'Pressura-Text', sans-serif;
     color: #1D1D1B;
     display: flex;
-    font-size: 1.25rem;
-    width: 100%;
-}
-
-#countdown {
     font-size: 1rem;
+    width: 100%;
 }
 
 .image-containter {
@@ -257,11 +253,15 @@ p {
     height: 400px;
 }
 
-.concepte {
+.content-tickets {
     padding: 3rem;
-    font-size: 0.90rem;
-    width: 900px;
+}
+
+.concepte {
+    padding: 1rem 20rem 2rem 20rem;
+    font-size: 0.85rem;
     line-height: 1.35rem;
+    text-align: center;
 }
 
 .content-tickets {
@@ -470,12 +470,6 @@ ul.leaders span + span {
     gap: 2rem;
 }
 
-.artistes h4 {
-    font-family: 'Pressura', sans-serif;
-    font-size: 1.25rem;
-    color: #E94E1B;
-}
-
 .djs-container {
     display: flex;
     flex-direction: row;
@@ -503,7 +497,7 @@ ul.leaders span + span {
 .dj-name {
     font-family: 'Pressura-Medium', sans-serif;
     letter-spacing: 1px;
-    font-size: 1.15rem;
+    font-size: 1rem;
     text-transform: uppercase;
     padding: 0.35rem 0.5rem;
     margin-bottom: 0.5rem;
@@ -515,12 +509,13 @@ ul.leaders span + span {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    
 }
 
 .day-name {
     font-family: 'Pressura-Text', sans-serif;
-    font-size: 1rem;
+    font-size: 0.85rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
     border: #1D1D1B 1px solid;
     padding: 0.15rem 0.25rem 0.25rem 0.25rem;
 }
@@ -658,10 +653,9 @@ ul.leaders span + span {
 
     /*Tiquets*/
 
-
     .tickets-container {
         flex-direction: column;
-        padding: 3rem;
+        padding: 2rem;
     }
 
     .tickets-card {
@@ -674,6 +668,11 @@ ul.leaders span + span {
         margin-bottom: 2rem;
     }
 
+    .concepte {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
     /*Horaris*/
 
     .dia-container {
@@ -682,8 +681,9 @@ ul.leaders span + span {
 
     /*Cartell*/
 
-    .artistes h4 {
-        width: 320px;
+    .artistes {
+        padding: 3rem 0rem;
+        align-items: center;
     }
 
     .djs-container {
@@ -699,7 +699,6 @@ ul.leaders span + span {
 
     .djs {
         width: 100%;
-        padding: 0rem 2rem;
     }
 
     }
