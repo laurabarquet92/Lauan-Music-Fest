@@ -655,7 +655,6 @@ ul.leaders span + span {
 
     .tickets-container {
         flex-direction: column;
-        padding: 2rem;
     }
 
     .tickets-card {
