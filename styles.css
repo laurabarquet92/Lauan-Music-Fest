@@ -294,6 +294,7 @@ p {
     font-family: 'Pressura-Text', sans-serif;
     font-size: 0.85rem;
     text-transform: uppercase;
+    line-height: 1.35rem;
 }
 
 .text-card-container {
@@ -530,10 +531,10 @@ ul.leaders span + span {
     margin-bottom: 0.75rem;
 }
 
-.outter-list {
-    display: flex; 
+.horaris-line {
+    display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 1rem;
 }
 
 .inner-list {
@@ -541,17 +542,13 @@ ul.leaders span + span {
     flex-direction: column;
     gap: 0.5rem;
     list-style-type: none; 
-    margin-top: 0.75rem;
-}
-
-.list-info {
-    font-family: 'Pressura-Text', sans-serif;
-    font-size: 0.85rem;
-    text-transform: uppercase;
 }
 
 .sub-list-info {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
+    font-family: 'Pressura-Text', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
 }
 
 /*media-queries*/
