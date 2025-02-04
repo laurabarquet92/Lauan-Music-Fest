@@ -563,6 +563,11 @@ ul.leaders span + span {
     gap: 2rem;
 }
 
+a.link {
+    text-decoration: underline;
+    color: #1D1D1B;
+}
+
 /*media-queries*/
 
 @media (max-width: 768px) {
