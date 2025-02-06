@@ -239,6 +239,7 @@ p {
     justify-content: left;
     gap: 2rem;
     background-color: #F0F0F0;
+    padding: 1rem 0rem;
 }
 
 .tickets-card {
@@ -247,11 +248,11 @@ p {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-  
+
 }
 
 .concepte {
-    font-size: 0.75rem;
+    font-size: 0.80rem;
     line-height: 1.25rem;
     text-transform: uppercase;
     margin: 0.5rem 0rem 1.5rem 0rem;
@@ -262,8 +263,7 @@ p {
     display: flex;
     flex-direction: column;
     background-color: #F0F0F0;
-    padding-bottom: 3rem;
-    padding: 3rem;
+    padding: 3rem 10rem;
 }
 
 .card-title {
@@ -273,7 +273,7 @@ p {
     margin: 1.5rem 0rem;
     color: #1D1D1B;
     padding: 0rem 2rem;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 .puntitos {
@@ -285,18 +285,17 @@ p {
 
 .text-card {
     font-family: 'Pressura-Text', sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     line-height: 1.35rem;
 }
 
 .text-card-container {
-    padding: 1rem;
-    margin-bottom: 1rem;
+    padding: 1rem 2rem;
 }
 
 .text-card-container p {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     margin-top: 0.45rem;
 }
 
@@ -310,7 +309,7 @@ p {
 .btn-2 {
     font-family: 'Pressura-Text', sans-serif;
     font-size: 1rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border: none;
     color: #FFFFFF; 
     letter-spacing: 0.1rem;
@@ -352,14 +351,14 @@ p {
 
 .preu {
     font-family: 'Pressura-Text', sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     display: flex;
     flex-direction: row;
     align-items: baseline;
     gap: 0.15rem;
     border-top: #1D1D1B 0.5px solid;
     color: #1D1D1B;
-    padding: 1rem;
+    padding: 0.85rem 2.5rem;
 }
 
 /* horaris */
