@@ -270,9 +270,9 @@ p {
 }
 
 .card-title {
-    font-family: 'Pressura', sans-serif;
+    font-family: 'Pressura-Text', sans-serif;
     text-transform: uppercase;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: 1.5rem 0rem;
     color: #1D1D1B;
@@ -564,6 +564,17 @@ ul.leaders span + span {
 a.link {
     text-decoration: underline;
     color: #1D1D1B;
+}
+
+ul.leaders2 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-family: 'Pressura-Text', sans-serif;
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    text-transform: uppercase;
 }
 
 /*media-queries*/
