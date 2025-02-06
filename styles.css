@@ -239,7 +239,7 @@ p {
     justify-content: left;
     gap: 2rem;
     background-color: #F0F0F0;
-    padding: 1rem 0rem;
+    padding-bottom: 1rem;
 }
 
 .tickets-card {
