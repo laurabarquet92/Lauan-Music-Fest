@@ -677,6 +677,10 @@ ul.leaders2 {
         width: 100%;
     }
 
+    .content-tickets {
+        padding: 3rem 3rem;
+    }
+
     .tickets-card {
         width: 100%;
         height: auto;
