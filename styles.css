@@ -62,8 +62,8 @@ a {
     font-size: 1.25rem;
     letter-spacing: 1px;
     justify-content: space-between;
-    padding: 1rem 0.6rem; 
-    border-bottom: #1D1D1B 1px solid;
+    padding: 1rem 0.6rem 1rem 0.6rem; 
+    border-bottom: #1D1D1B 0.5px solid;
 }
 
 .nav-1 ul {
@@ -79,13 +79,12 @@ a {
     text-decoration: none;
     color: #1D1D1B;
     padding: 0.1rem 0.4rem 0.2rem 0.4rem;
-    border: transparent 1px solid;
+    border: transparent 0.5px solid;
 }
 
 .nav-1 ul li a:hover {
-    border: #1D1D1B solid 1px;
+    border: #1D1D1B solid 0.5px;
     padding: 0.1rem 0.4rem 0.2rem 0.4rem;
-    border-radius: 0.5rem;
 }
 
 .checkbtn {
@@ -101,7 +100,7 @@ p {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: #1D1D1B 1px solid;
+    border-bottom: #1D1D1B 0.5px solid;
     align-items: center;
     padding: 0rem 0rem 0rem 1rem;
 }
@@ -167,7 +166,6 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #F0F0F0;
 }
 
 #btn {
@@ -211,7 +209,7 @@ p {
     flex-direction: row;
     align-items: baseline;
     gap: 0.15rem;
-    border-top: #1D1D1B 1px solid;
+    border-top: #1D1D1B 0.5px solid;
     color: #1D1D1B;
     padding: 0.5rem 1rem;
 }
@@ -244,7 +242,7 @@ p {
 }
 
 .tickets-card {
-    border: #1D1D1B 1px solid;
+    border: #1D1D1B 0.5px solid;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -321,8 +319,8 @@ p {
     letter-spacing: 0.1rem;
     width: 100%;
     text-align: left;
-    border-top: #1D1D1B solid 1px;
-    border-right: #1D1D1B solid 1px;
+    border-top: #1D1D1B solid 0.5px;
+    border-right: #1D1D1B solid 0.5px;
     background-color: #1D1D1B;
     position: relative; 
     cursor: pointer;
@@ -362,7 +360,7 @@ p {
     flex-direction: row;
     align-items: baseline;
     gap: 0.15rem;
-    border-top: #1D1D1B 1px solid;
+    border-top: #1D1D1B 0.5px solid;
     color: #1D1D1B;
     padding: 1rem;
 }
@@ -490,7 +488,7 @@ ul.leaders span + span {
 .dj img {
     height: 320px;
     width: 100%;
-    border: #1D1D1B 1px solid;
+    border: #1D1D1B 0.5px solid;
     margin-bottom: 0.25rem;
 }
 
@@ -501,7 +499,7 @@ ul.leaders span + span {
     text-transform: uppercase;
     padding: 0.35rem 0.5rem;
     margin-bottom: 0.5rem;
-    border: #1D1D1B 1px solid;
+    border: #1D1D1B 0.5px solid;
     color: #1D1D1B;
 }
 
@@ -516,7 +514,7 @@ ul.leaders span + span {
     font-size: 0.85rem;
     font-size: 0.85rem;
     text-transform: uppercase;
-    border: #1D1D1B 1px solid;
+    border: #1D1D1B 0.5px solid;
     padding: 0.15rem 0.25rem 0.25rem 0.25rem;
 }
 
@@ -635,7 +633,7 @@ a.link {
         background-color: #FFFFFF;
         transition: 0.5s;  
         overflow: hidden;  
-        border-bottom: #1D1D1B 1px solid;
+        border-bottom: #1D1D1B 0.1px solid;
     }
 
     .nav-1 ul {
