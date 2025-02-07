@@ -248,15 +248,14 @@ p {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-
+    margin-top: 1rem;
 }
 
 .concepte {
     font-size: 0.80rem;
-    line-height: 1.25rem;
+    line-height: 1.35rem;
     text-transform: uppercase;
-    margin: 0.5rem 0rem 1.5rem 0rem;
-    max-width: 800px;
+    margin-top: 0.5rem;
 }
 
 .content-tickets {
@@ -394,7 +393,6 @@ p {
 .title-horaris {
     font-family: 'Pressura', sans-serif;
     font-size: 1.25rem;
-    align-items: center;
     margin-bottom: 0.75rem;
     color: #E94E1B;
 }
@@ -434,6 +432,12 @@ ul.leaders span + span {
     font-family: 'Pressura-Text', sans-serif;
     font-size: 0.85rem;
     text-transform: uppercase;
+}
+
+.horaris-line {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
 }
 
 /*Cartell*/
@@ -516,25 +520,8 @@ ul.leaders span + span {
 
 /*Info*/
 
-.title-horaris3 {
-    color: #E94E1B;
-    font-family: 'Pressura', sans-serif;
-    font-size: 1.25rem;
-    align-items: center;
-    margin-bottom: 0.75rem;
-}
-
-.horaris-line {
-    display: flex;
-    flex-direction: column;
-    gap: 0.85rem;
-}
-
-.inner-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    list-style-type: none; 
+.title-info {
+    width: 600px;
 }
 
 .sub-list-info {
@@ -544,7 +531,7 @@ ul.leaders span + span {
     text-transform: uppercase;
 }
 
-.title-horaris4 {
+.title-subinfo {
     font-family: 'Pressura-Medium', sans-serif;
     font-size: 0.85rem;
     text-transform: uppercase;
@@ -571,6 +558,15 @@ ul.leaders2 {
     font-size: 0.85rem;
     line-height: 1.2rem;
     text-transform: uppercase;
+}
+
+.horaris-container2 {
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        background-color: #F0F0F0;
 }
 
 /*media-queries*/
@@ -678,7 +674,7 @@ ul.leaders2 {
     }
 
     .content-tickets {
-        padding: 2rem;
+        padding: 2.5rem;
     }
 
     .tickets-card {
@@ -703,13 +699,13 @@ ul.leaders2 {
     }
 
     .horaris-container {
-        padding: 2rem;
+        padding: 2.5rem;
     }
 
     /*Cartell*/
 
     .artistes {
-        padding: 2rem 0rem;
+        padding: 2.5rem 0rem;
         align-items: center;
         gap: 1rem;
     }
@@ -732,6 +728,10 @@ ul.leaders2 {
     /*Info*/
 
     .dia-container-info {
+        width: 100%;
+    }
+
+    .title-info {
         width: 100%;
     }
 
