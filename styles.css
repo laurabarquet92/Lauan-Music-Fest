@@ -678,7 +678,7 @@ ul.leaders2 {
     }
 
     .content-tickets {
-        padding: 3rem 3rem;
+        padding: 2rem;
     }
 
     .tickets-card {
@@ -702,10 +702,14 @@ ul.leaders2 {
         width: 100%;
     }
 
+    .horaris-container {
+        padding: 2rem;
+    }
+
     /*Cartell*/
 
     .artistes {
-        padding: 3rem 0rem;
+        padding: 2rem 0rem;
         align-items: center;
         gap: 1rem;
     }
