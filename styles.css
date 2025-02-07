@@ -440,6 +440,12 @@ ul.leaders span + span {
     gap: 0.85rem;
 }
 
+.parlament p {
+    font-family: 'Pressura-Text', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
 /*Cartell*/
 
 .main-title :hover {
