@@ -550,7 +550,7 @@ a.link {
 }
 
 ul.leaders2 {
-    list-style: none;
+    margin-left: 2%;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -558,6 +558,7 @@ ul.leaders2 {
     font-size: 0.85rem;
     line-height: 1.2rem;
     text-transform: uppercase;
+
 }
 
 .horaris-container2 {
