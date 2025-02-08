@@ -445,10 +445,11 @@ ul.leaders span + span {
     gap: 0.85rem;
 }
 
-.parlament p{
+p.parlament {
     font-family: 'Pressura-Text', sans-serif;
     font-size: 0.85rem;
     text-transform: uppercase;
+    line-height: 1.25rem;
 }
 
 /*Cartell*/
@@ -561,7 +562,7 @@ a.link {
 }
 
 ul.leaders2 {
-    margin-left: 2%;
+    margin-left: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
