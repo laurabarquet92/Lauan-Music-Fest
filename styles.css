@@ -252,8 +252,11 @@ p {
 }
 
 .concepte {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     font-size: 0.80rem;
-    line-height: 1.35rem;
+    line-height: 1.25rem;
     text-transform: uppercase;
     margin-top: 0.5rem;
 }
@@ -268,11 +271,13 @@ p {
 .card-title {
     font-family: 'Pressura-Text', sans-serif;
     text-transform: uppercase;
+    text-align: center;
     font-size: 1.5rem;
     margin: 1.5rem 0rem;
     color: #1D1D1B;
     padding: 0rem 2rem;
     letter-spacing: 4px;
+    line-height: 2rem;;
 }
 
 .puntitos {
@@ -440,7 +445,7 @@ ul.leaders span + span {
     gap: 0.85rem;
 }
 
-.parlament p {
+.parlament p{
     font-family: 'Pressura-Text', sans-serif;
     font-size: 0.85rem;
     text-transform: uppercase;
