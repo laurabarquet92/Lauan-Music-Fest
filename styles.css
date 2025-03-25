@@ -365,6 +365,11 @@ p {
     padding: 0.85rem 2.5rem;
 }
 
+.iban {
+    margin: 2rem;
+    text-align: center;
+}
+
 /* horaris */
 
 .activelink2 a {
